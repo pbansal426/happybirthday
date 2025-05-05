@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankur Bansal | Portfolio</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <div class="nav-inner">
+        <a class="logo" href="/">Ankur Bansal</a>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="hero" class="section hero" data-aos="fade-up">
+      <div class="hero-inner" style="display: flex; align-items: center; justify-content: space-between;">
+        <div class="hero-text"  style="margin-right: 20px; max-width: 50%;">
+          <h1>Hello, I’m <span class="accent">Ankur Bansal</span>.</h1>
+          <p class="subhead" style="font-size: 1.1em; line-height: 1.7; margin-bottom: 20px;">
+            I'm an accomplished <b>AI, Cloud, Microservices,</b> and <b>Kubernetes</b> expert. My specializations include:
+          </p>
+          <ul style="list-style-position: inside; margin-bottom: 20px;">
+            <li><span style="font-weight: bold;">Programming Paradigms:</span> Java/Spring, Python, React, NodeJS, Javascript, Groovy, SQL, and HTML.</li>
+            <li><span style="font-weight: bold;">Cloud Native Solutions:</span> Containers (OCP, AWS EKS, AWS ECS), Serverless (AWS Lambda, AWS Fargate, Google functions), CI/CD (Jenkins), Observability (Datadog, Instana, AppDynamics).</li>
+            <li><span style="font-weight: bold;">AI Technologies:</span> Large Scale Models (LLMs), Retrieval Augmented Generation (RAG), Vector Databases, LangChain, LangChain4J, Spring AI, Model Context Protocol, HuggingFace.</li>
+            <li><span style="font-weight: bold;">Architecture:</span> Microservices, Legacy (Monolithic), and Event-Driven Architectures.</li>
+            <li><span style="font-weight: bold;">Key Technologies:</span> Kafka, Kubernetes, LLMs, RAG, Vector Databases, RDBMS, and NoSQL Databases.</li>
+          </ul>
+          <div class="social-links">
+            <a
+              class="social-btn linkedin"
+              href="https://www.linkedin.com/in/bansalankur/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+        <div class="hero-image" style="margin-left: 20px;">
+          <img src="assets/pfp.jpeg" alt="Profile Image" style="max-width: 300px; border-radius: 8px;" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects" data-aos="fade-up">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-info">
+            <h3>2011 Cricket World Cup Chatbot</h3>
+            <p>
+              This 2011 Cricket World Cup chatbot reads the wiki page
+              https://lnkd.in/gF7HMTsr and answers any questions. The chatbot uses:
+              <ul style="list-style-position: inside;">
+                <li>llama 3.2 as LLM</li>
+                <li>langchain4j as orchestration framework</li>
+                <li>AllMiniLmL6V2EmbeddingModel as the embedding model</li>
+                <li>InMemoryEmbeddingStore as the in-memory vector store</li>
+                <li>Ollama as server to run the LLM</li>
+              </ul>
+            </p>
+            <div class="project-links">
+              <a
+                class="project-btn code alt"
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7320642697269051392/"
+                target="_blank"
+                >View LinkedIn Post</a
+              >
+            </div>
+          </div>
+          <div class="project-visual">
+            <img
+              src="assets/images/cricket_chatbot.png"
+              alt="2011 Cricket World Cup Chatbot Preview"
+            />
+          </div>
+        </div>
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-info">
+            <h3>[Project Name]</h3>
+            <p>
+              Description
+            </p>
+            <div class="project-links">
+              [Add links]
+            </div>
+          </div>
+          <div class="project-visual">
+            <!-- <img
+              src="assets/images/[image_name].png"
+              alt="2011 Cricket World Cup Chatbot Preview"
+            /> -->
+            Uncomment the image tag and add your own visual.
+          </div>
+        </div>
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-info">
+            <h3>[Project Name]</h3>
+            <p>
+              Description
+            </p>
+            <div class="project-links">
+              [Add links]
+            </div>
+          </div>
+          <div class="project-visual">
+            <!-- <img
+              src="assets/images/[image_name].png"
+              alt="2011 Cricket World Cup Chatbot Preview"
+            /> -->
+            Uncomment the image tag and add your own visual.
+          </div>
+        </div>
+        <!-- DUPLICATE AS NEEDED -->
+         Duplicate as needed.
+      </div>
+    </section>
+
+    <section id="skills" class="section skills" data-aos="fade-up">
+      <h2>My Skills</h2>
+      <ul class="skills-icons">
+          <li>
+              <i class="fa-brands fa-java"></i>
+              <span>Java/Spring</span>
+          </li>
+          <li>
+            <i class="fa-brands fa-python"></i>
+              <span>Python</span>
+          </li>
+          <li>
+              <i class="fa-brands fa-react"></i>
+              <span>React</span>
+          </li>
+          <li>
+              <i class="fa-brands fa-node-js"></i>
+              <span>NodeJS</span>
+          </li>
+          <li>
+              <i class="fab fa-js"></i>
+              <span>Javascript</span>
+          </li>
+          <li>
+              <img src="assets/images/svg/groovy.png" alt="Groovy" class="custom-icon">
+              <span>Groovy</span>
+          </li>
+          <li>
+              <i class="fa-solid fa-database"></i>
+              <span>SQL</span>
+          </li>
+          <li>
+              <i class="fa-brands fa-html5"></i>
+              <span>HTML</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-cloud"></i>
+              <span>Cloud Native</span>
+          </li>
+          <li>
+              <i class="fa-brands fa-docker"></i>
+              <span>Containers</span>
+          </li>
+          <li>
+              <img src="assets/images/svg/serverless.png" alt="Serverless" class="custom-icon">
+              <span>Serverless</span>
+          </li>
+          <li>
+              <i class="fas fa-cogs"></i>
+              <span>CI/CD</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Observability</span>
+          </li>
+          <li>
+              <i class="fas fa-brain"></i>
+              <span>AI</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-cubes"></i>
+              <span>LLMs</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-kaaba"></i>
+              <span>RAG</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-database"></i>
+            <span>Vector DB</span>
+          </li>
+          <li>
+              <img src="assets/images/svg/langchain.png" alt="LangChain" class="custom-icon">
+              <span>LangChain</span>
+          </li>
+          
+          <li>
+               <img src="assets/images/svg/spring.svg" alt="Spring AI" class="custom-icon">
+              <span>Spring AI</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-cube"></i>
+              <span>Model Context</span>
+          </li>
+          <li>
+              <img src="assets/images/svg/hugging_face.svg" alt="HuggingFace" class="custom-icon">
+              <span>HuggingFace</span>
+          </li>
+          <li>
+              <i class="fas fa-server"></i>
+              <span>Microservices</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-cubes-stacked"></i>
+              <span>Monolithic</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-users-gear"></i>
+              <span>Event Driven</span>
+          </li>
+          <li>
+            <img src="assets/images/svg/kafka.png" alt="Kubernetes" class="custom-icon">
+             
+              <span>Kafka</span>
+          </li>
+          <li>
+            <img src="assets/images/svg/kubernetes.svg" alt="Kubernetes" class="custom-icon">
+              
+              <span>Kubernetes</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-database"></i>
+              <span>RDBMS</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-database"></i>
+              <span>NOSQL</span>
+          </li>
+          <li>
+              <i class="fab fa-aws"></i>
+              <span>AWS</span>
+          </li>
+          <li>
+              <i class="fas fa-cloud"></i>
+              <span>Cloud</span>
+          </li>
+      </ul>
+  </section>
+  
+
+    <section id="experience" class="section experience" data-aos="fade-up">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Discover Financial Services / Expert Application Engineer</h3>
+          <h4>Greater Chicago Area</h4>
+          <p class="timeline-date">September 2013 - Present (11 years 9 months)</p>
+          <p>
+            Skills: Python (Programming Language) · Node.js · Google Cloud Platform (GCP)
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3>Chen Medical / Senior Architect</h3>
+          <h4>Miami/Fort Lauderdale Area</h4>
+          <p class="timeline-date">October 2011 - August 2013 (1 year 11 months)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Blue Cross Blue Shield of Florida / Senior Architect</h3>
+          <h4>Jacksonville, Florida Area</h4>
+          <p class="timeline-date">December 2010 - October 2011 (11 months)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Motricity / Development Lead</h3>
+          <p class="timeline-date">November 2009 - November 2010 (1 year 1 month)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>GlobalLogic / Senior Consultant</h3>
+          <p class="timeline-date">May 2007 - November 2010 (3 years 7 months)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Third Pillar Systems / Development Lead</h3>
+          <p class="timeline-date">May 2007 - October 2009 (2 years 6 months)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Tata Consultancy Services / Assistant Consultant</h3>
+          <p class="timeline-date">August 2004 - May 2007 (2 years 10 months)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Infosys Technologies Limited / Programmer Analyst</h3>
+          <p class="timeline-date">June 2000 - August 2004 (4 years 3 months)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education" data-aos="fade-up">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Indian Institute of Technology, Kharagpur</h3>
+          <p class="timeline-date">1996 - 2000</p>
+          <p>Bachelor of Technology</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" data-aos="fade-up">
+      <h2>Contact Me</h2>
+      <p>
+        Please reach out at
+        <a href="mailto:[YOUR_EMAIL]"></a> or fill
+        out the form below:
+      </p>
+      <br /><br />
+      </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({ duration: 800, easing: "ease-out-quart", once: true });
+    </script>
+  </body>
+</html>
